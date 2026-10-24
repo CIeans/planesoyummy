@@ -1,5 +1,5 @@
 # planesoyummy
-an ADS-B decoder written from scratch in python with an RTL-SDR. decodes ICAO, callsign, altitude, speed, heading, vertical rate.
+An ADS-B decoder written from scratch in python with an RTL-SDR.
 
 For context, this is one of the main side project I spent a while working on while learning DSP.
 The project is heavily annotated with just about every little detail explained on why it's there, and how it works.
