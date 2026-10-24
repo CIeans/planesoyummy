@@ -7,7 +7,7 @@ The .py file is heavily annotated with every step numbered, and most of the unin
 The output is a simple dictionary table that lists out ICAO, callsign, altitude, speed, heading, and vertical rate.\
 Requires an RTL-SDR dongle with an antenna, Python 3, numpy, and the rtl_sdr tools (comes with radioconda).
   
-The project was heavily inspired from my initial dive into DSP, with my discovery of dump1090.\
+The project was heavily inspired by my initial dive into DSP, with my discovery of dump1090.\
 Results were cross-checked with dump1090, ensuring both programs caught the same ADS-B signals.
 
   
@@ -18,7 +18,7 @@ Results were cross-checked with dump1090, ensuring both programs caught the same
 - Not seen in the screenshot below, but planes that haven't been picked up for 60s get dropped from the table. 
 
     
-The only missing data is latitude and longitude, of which I wanted to map onto a matplotlib map. \
+The only missing data is latitude and longitude, which I’d like to plot on a matplotlib map. \
 Given it's a bit beyond my current scope, it's something I hope to soon come back to and add. 
 
     
